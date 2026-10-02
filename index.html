@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Amin Hosseini — Computer Engineering student passionate about Python and clean craftsmanship."
+    />
+    <meta name="theme-color" content="#fbfbfd" />
+    <title>Amin Hosseini — Python</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div
+      class="loader"
+      id="loader"
+      role="status"
+      aria-label="Loading Amin Hosseini's portfolio"
+    >
+      <div class="loader-mark">SAM</div>
+      <div class="loader-word" aria-label="Python">
+        <span>P</span><span>y</span><span>t</span><span>h</span><span>o</span
+        ><span>n</span><i></i>
+      </div>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Amin Hosseini — home">
+          <span class="brand-logo" data-logo aria-label="Personal logo"
+            >AH</span
+          >
+          <span>Amin Hosseini</span>
+        </a>
+        <button
+          class="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#skills">Skills</a><a href="#contact">Contact</a>
+          <div class="nav-actions">
+            <button class="button button-secondary open-modal">
+              Connect Me
+            </button>
+            <a
+              class="button button-primary github-link"
+              href="https://github.com/AminHosseini20"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid container">
+          <div class="hero-copy reveal">
+            <h1 id="hero-title">Hello, I’m <em>Amin.</em></h1>
+            <p class="hero-lede">
+              A Computer Engineering student passionate about
+              <strong>Python.</strong> I turn curiosity into clear, useful
+              digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#about"
+                >Meet Amin <span aria-hidden="true">↓</span></a
+              >
+              <button class="text-link open-modal">
+                Let’s connect <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="hero-art reveal"
+            aria-label="Digital developer avatar illustration"
+          >
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="code-chip" aria-hidden="true">&lt;/&gt;</div>
+            <div class="python-chip" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path
+                  fill="#306998"
+                  d="M32 4c-15 0-14 7-14 7v8h15v3H12S4 21 4 36s7 16 7 16h7v-9s0-7 14-7h13s11 0 11-15S46 4 32 4Zm-8 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"
+                />
+                <path
+                  fill="#ffd43b"
+                  d="M32 60c15 0 14-7 14-7v-8H31v-3h21s8 1 8-14-7-16-7-16h-7v9s0 7-14 7H19S8 28 8 43s10 17 24 17Zm8-10a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"
+                />
+              </svg>
+            </div>
+            <div
+              class="avatar-wrap"
+              data-avatar
+              aria-label="Amin's digital avatar"
+            >
+              <div class="avatar-glow"></div>
+              <div class="avatar-head"><span></span></div>
+              <div class="avatar-body"></div>
+              <span class="avatar-label">PYTHON<br />BUILDER</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer container">
+          <span>Scroll to explore</span>
+          <div></div>
+          <span>01 — 04</span>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 id="about-title">
+              The person behind<br /><em>the prompt.</em>
+            </h2>
+          </div>
+          <div class="about-layout">
+            <div
+              class="about-portrait reveal"
+              data-photo
+              role="img"
+              aria-label="Placeholder for a photo of Amin"
+            >
+              <div class="portrait-initials">AH</div>
+              <p>Personal photo<br /><span>replace [PERSONAL_PHOTO]</span></p>
+            </div>
+            <div class="about-content reveal">
+              <p class="large-copy">
+                I’m Amin Hosseini, a Computer Engineering student drawn to the
+                quiet satisfaction of making things work beautifully.
+              </p>
+              <p>
+                I’m especially passionate about Python: its clarity,
+                versatility, and power to turn an idea into something real. I
+                enjoy breaking down problems, learning continuously, and
+                crafting solutions that are simple on the surface and considered
+                underneath.
+              </p>
+              <p>
+                Whether I’m writing code, exploring a new concept, or refining a
+                small detail, I care about thoughtful work and steady progress.
+              </p>
+            </div>
+            <div class="about-video reveal" data-video>
+              <div class="video-shine"></div>
+              <button
+                class="play-button"
+                id="play-video"
+                aria-label="Play Amin's introduction video"
+              >
+                <span></span>
+              </button>
+              <div class="video-caption">
+                <strong>A glimpse of my work</strong>
+              </div>
+              <video
+                id="intro-video"
+                controls
+                playsinline
+                aria-label="Amin's video"
+              ></video>
+            </div>
+            <section
+              class="journey-progress reveal"
+              aria-labelledby="journey-title"
+            >
+              <div class="journey-heading">
+                <h3 id="journey-title">
+                  Built through<br /><em>steady practice.</em>
+                </h3>
+              </div>
+              <div
+                class="journey-tabs"
+                role="tablist"
+                aria-label="Programming journey stages"
+              >
+                <button
+                  class="journey-stage is-active"
+                  id="foundation-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="foundation-panel"
+                  data-journey-stage="foundation"
+                >
+                  <span class="journey-index">01</span
+                  ><span class="journey-name">Foundation</span>
+                </button>
+                <button
+                  class="journey-stage"
+                  id="development-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="development-panel"
+                  tabindex="-1"
+                  data-journey-stage="development"
+                >
+                  <span class="journey-index">02</span
+                  ><span class="journey-name">Development</span>
+                </button>
+                <button
+                  class="journey-stage"
+                  id="building-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="building-panel"
+                  tabindex="-1"
+                  data-journey-stage="building"
+                >
+                  <span class="journey-index">03</span
+                  ><span class="journey-name">Building</span>
+                </button>
+                <button
+                  class="journey-stage"
+                  id="growth-tab"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="growth-panel"
+                  tabindex="-1"
+                  data-journey-stage="growth"
+                >
+                  <span class="journey-index">04</span
+                  ><span class="journey-name">Growth</span>
+                </button>
+              </div>
+              <div class="journey-panels">
+                <div
+                  class="journey-panel is-active"
+                  id="foundation-panel"
+                  role="tabpanel"
+                  aria-labelledby="foundation-tab"
+                >
+                  <div>
+                    <p class="journey-kicker">Starting point</p>
+                    <h4>Foundation</h4>
+                    <p>
+                      Beginning with Python, core programming ideas, and the
+                      patience to understand how each piece fits together.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>Problem solving</li>
+                    <li>Python fundamentals</li>
+                    <li>Computer engineering</li>
+                  </ul>
+                </div>
+                <div
+                  class="journey-panel"
+                  id="development-panel"
+                  role="tabpanel"
+                  aria-labelledby="development-tab"
+                  hidden
+                >
+                  <div>
+                    <p class="journey-kicker">Building fluency</p>
+                    <h4>Development</h4>
+                    <p>
+                      Turning concepts into repeatable practice through small
+                      challenges, cleaner logic, and a growing web foundation.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>JavaScript practice</li>
+                    <li>Semantic HTML &amp; CSS</li>
+                    <li>Debugging habits</li>
+                  </ul>
+                </div>
+                <div
+                  class="journey-panel"
+                  id="building-panel"
+                  role="tabpanel"
+                  aria-labelledby="building-tab"
+                  hidden
+                >
+                  <div>
+                    <p class="journey-kicker">Making it real</p>
+                    <h4>Building</h4>
+                    <p>
+                      Using what I learn to shape purposeful projects—balancing
+                      working code with clear, thoughtful experiences.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>Portfolio projects</li>
+                    <li>Git workflows</li>
+                    <li>Iterative refinement</li>
+                  </ul>
+                </div>
+                <div
+                  class="journey-panel"
+                  id="growth-panel"
+                  role="tabpanel"
+                  aria-labelledby="growth-tab"
+                  hidden
+                >
+                  <div>
+                    <p class="journey-kicker">Looking ahead</p>
+                    <h4>Growth</h4>
+                    <p>
+                      Continuing to learn in public, explore AI-assisted
+                      workflows, and raise the standard of every project I ship.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>Continuous learning</li>
+                    <li>AI-assisted development</li>
+                    <li>Better every iteration</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="skills section"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container">
+          <div class="skills-intro reveal">
+            <h2 id="skills-title">A focused<br /><em>foundation.</em></h2>
+          </div>
+          <div class="technology-categories">
+            <section
+              class="technology-category reveal"
+              aria-labelledby="programming-title"
+            >
+              <div class="technology-category-heading">
+                <p class="technology-category-index">01</p>
+                <h3 id="programming-title">Programming Languages</h3>
+              </div>
+              <ul class="technology-list">
+                <li class="technology-item is-primary">
+                  <img
+                    src="https://cdn.simpleicons.org/python/3776AB"
+                    alt=""
+                  /><span>Python</span><small>Primary focus</small>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/cplusplus/00599C"
+                    alt=""
+                  /><span>C++</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/javascript/F7DF1E"
+                    alt=""
+                  /><span>JavaScript</span>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="technology-category reveal"
+              aria-labelledby="web-title"
+            >
+              <div class="technology-category-heading">
+                <p class="technology-category-index">02</p>
+                <h3 id="web-title">Web</h3>
+              </div>
+              <ul class="technology-list">
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/html5/E34F26"
+                    alt=""
+                  /><span>HTML</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/css/1572B6"
+                    alt=""
+                  /><span>CSS</span>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="technology-category reveal"
+              aria-labelledby="tools-title"
+            >
+              <div class="technology-category-heading">
+                <p class="technology-category-index">03</p>
+                <h3 id="tools-title">Development &amp; Deployment</h3>
+              </div>
+              <ul class="technology-list">
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/git/F05032"
+                    alt=""
+                  /><span>Git</span>
+                </li>
+                <li class="technology-item technology-item-dark">
+                  <img
+                    src="https://cdn.simpleicons.org/github/FFFFFF"
+                    alt=""
+                  /><span>GitHub</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/visualstudiocode/007ACC"
+                    alt=""
+                  /><span>VS Code</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/cloudflare/F38020"
+                    alt=""
+                  /><span>Cloudflare</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/vercel/000000"
+                    alt=""
+                  /><span>Vercel</span>
+                </li>
+                <li class="technology-item">
+                  <img
+                    src="https://cdn.simpleicons.org/netlify/00C7B7"
+                    alt=""
+                  /><span>Netlify</span>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="technology-category reveal"
+              aria-labelledby="ai-title"
+            >
+              <div class="technology-category-heading">
+                <p class="technology-category-index">04</p>
+                <h3 id="ai-title">AI</h3>
+              </div>
+              <ul class="technology-list">
+                <li class="technology-item technology-item-ai">
+                  <img
+                    src="https://cdn.simpleicons.org/openai/412991"
+                    alt=""
+                  /><span>OpenAI</span>
+                </li>
+                <li class="technology-item technology-item-ai">
+                  <img
+                    src="https://cdn.simpleicons.org/anthropic/191919"
+                    alt=""
+                  /><span>Anthropic</span>
+                </li>
+                <li class="technology-item technology-item-ai">
+                  <img
+                    src="https://cdn.simpleicons.org/cursor/000000"
+                    alt=""
+                  /><span>Cursor</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-panel container reveal">
+          <div class="contact-intro">
+            <h2 id="contact-title">
+              Let’s build<br /><em>something useful.</em>
+            </h2>
+            <p>
+              Tell me about your project and the problem you want to solve. I’ll
+              review the details and get back to you.
+            </p>
+          </div>
+          <form class="inquiry-form" id="inquiry-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="inquiry-name"
+                  >Name <span aria-hidden="true">*</span></label
+                ><input
+                  id="inquiry-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  aria-describedby="inquiry-name-error"
+                />
+                <p class="field-error" id="inquiry-name-error"></p>
+              </div>
+              <div class="form-field">
+                <label for="inquiry-company"
+                  >Company <span aria-hidden="true">*</span></label
+                ><input
+                  id="inquiry-company"
+                  name="company"
+                  type="text"
+                  autocomplete="organization"
+                  required
+                  aria-describedby="inquiry-company-error"
+                />
+                <p class="field-error" id="inquiry-company-error"></p>
+              </div>
+              <div class="form-field">
+                <label for="inquiry-email"
+                  >Email <span aria-hidden="true">*</span></label
+                ><input
+                  id="inquiry-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  aria-describedby="inquiry-email-error"
+                />
+                <p class="field-error" id="inquiry-email-error"></p>
+              </div>
+              <div class="form-field">
+                <label for="inquiry-phone"
+                  >Phone <span class="optional">Optional</span></label
+                ><input
+                  id="inquiry-phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  aria-describedby="inquiry-phone-error"
+                />
+                <p class="field-error" id="inquiry-phone-error"></p>
+              </div>
+              <div class="form-field">
+                <label for="inquiry-budget">Budget range</label
+                ><select id="inquiry-budget" name="budget">
+                  <option value="">Select a range</option>
+                  <option value="under-1000">Under $1,000</option>
+                  <option value="1000-3000">$1,000 – $3,000</option>
+                  <option value="3000-5000">$3,000 – $5,000</option>
+                  <option value="5000-plus">$5,000+</option>
+                  <option value="discuss">Let’s discuss</option>
+                </select>
+              </div>
+              <div class="form-field form-field-wide">
+                <label for="inquiry-project"
+                  >Project <span aria-hidden="true">*</span></label
+                ><textarea
+                  id="inquiry-project"
+                  name="project"
+                  rows="5"
+                  required
+                  aria-describedby="inquiry-project-error"
+                  placeholder="What are you hoping to build?"
+                ></textarea>
+                <p class="field-error" id="inquiry-project-error"></p>
+              </div>
+            </div>
+            <div class="form-actions">
+              <p
+                id="inquiry-status"
+                class="form-status"
+                role="status"
+                aria-live="polite"
+              ></p>
+              <button class="button inquiry-submit" type="submit">
+                Send inquiry <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </form>
+          <div class="contact-orb" aria-hidden="true"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <a class="privacy-link" href="pages/privacy.html">Privacy Policy</a>
+      <p>© 2026 Amin Hosseini</p>
+    </footer>
+
+    <div
+      class="modal-backdrop"
+      id="connect-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-hidden="true"
+    >
+      <div class="connect-modal">
+        <button class="modal-close" aria-label="Close connection menu">
+          ×
+        </button>
+        <h2 id="modal-title">Choose your<br /><em>favorite channel.</em></h2>
+        <div class="connect-list">
+          <a
+            href="https://github.com/AminHosseini20"
+            class="connect-item"
+            target="_blank"
+            rel="noreferrer"
+            ><b class="social-icon github">⌘</b
+            ><span
+              ><strong>GitHub</strong><small>See what I’m building</small></span
+            ><i>↗</i></a
+          >
+          <a
+            href="https://t.me/+989197495900"
+            class="connect-item"
+            target="_blank"
+            rel="noreferrer"
+            ><b class="social-icon telegram">➤</b
+            ><span
+              ><strong>Telegram</strong
+              ><small>Send a quick message</small></span
+            ><i>↗</i></a
+          >
+          <a href="mailto:sydaminhosseini@gmail.com" class="connect-item"
+            ><b class="social-icon email">@</b
+            ><span
+              ><strong>Email</strong><small>Start a conversation</small></span
+            ><i>↗</i></a
+          >
+          <a
+            href="https://wa.me/989197495900"
+            class="connect-item"
+            target="_blank"
+            rel="noreferrer"
+            ><b class="social-icon whatsapp">◔</b
+            ><span><strong>WhatsApp</strong><small>Let’s chat</small></span
+            ><i>↗</i></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
